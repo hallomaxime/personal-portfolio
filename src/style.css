@@ -1,7 +1,7 @@
 :root {
   --darkest-color: #040017;
   --primary-color: #e6e6fa;
-  --secondary-color: #b686ff;
+  --secondary-color: #a061ff;
 }
 
 .hero {
@@ -13,6 +13,7 @@
 .intro p {
   font-family: "Caveat", cursive;
   font-size: 48px !important;
+  color: var(--primary-color) !important;
   margin-left: -25% !important;
   line-height: 40px;
 }
@@ -24,11 +25,21 @@ h1 {
 
 h2 {
   font-size: 28px !important;
+  color: var(--primary-color) !important;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--darkest-color) !important;
 }
 
 .btn-branding {
+  font-size: 18px;
   background-color: var(--secondary-color) !important;
-  color: #ffffff !important;
+  color: var(--primary-color) !important;
 }
 
 a {
