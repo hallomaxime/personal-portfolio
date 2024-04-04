@@ -1,5 +1,53 @@
 :root {
-  --background-color: #040017;
+  --darkest-color: #040017;
   --primary-color: #e6e6fa;
   --secondary-color: #b686ff;
+}
+
+.hero {
+  background-color: var(--darkest-color) !important;
+  color: var(--primary-color) !important;
+  padding: 100px 0 140px 0;
+}
+
+.intro p {
+  font-family: "Caveat", cursive;
+  font-size: 48px !important;
+  margin-left: -25% !important;
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 100px !important;
+  color: var(--secondary-color) !important;
+}
+
+h2 {
+  font-size: 28px !important;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color) !important;
+  color: #ffffff !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--secondary-color) !important;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.projects {
+  margin-top: -50px;
+  padding: 100px;
+  background-color: #ffffff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+footer {
+  font-size: 14px;
 }
