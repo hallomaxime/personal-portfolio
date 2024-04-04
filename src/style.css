@@ -7,7 +7,7 @@
 .hero {
   background-color: var(--darkest-color) !important;
   color: var(--primary-color) !important;
-  padding: 100px 0 140px 0;
+  padding: 150px 0 190px 0;
 }
 
 .intro p {
@@ -28,6 +28,15 @@ h2 {
   color: var(--primary-color) !important;
 }
 
+h3 {
+  font-size: 24px !important;
+}
+
+h4 {
+  font-size: 36px !important;
+  font-weight: bold !important;
+}
+
 h3,
 h4,
 h5,
@@ -36,10 +45,19 @@ p {
   color: var(--darkest-color) !important;
 }
 
+#min-margin {
+  margin-top: -50px !important;
+  margin-bottom: 50px;
+}
+
 .btn-branding {
   font-size: 18px;
   background-color: var(--secondary-color) !important;
-  color: var(--primary-color) !important;
+  color: #ffffff !important;
+}
+
+.project-desc {
+  padding: 20px !important;
 }
 
 a {
@@ -61,4 +79,43 @@ a:hover {
 
 footer {
   font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 100px 0 140px 0;
+  }
+
+  .projects {
+    padding: 20px !important;
+  }
+
+  .project-desc {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  .intro p {
+    font-size: 24px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  h4 {
+    font-size: 18px !important;
+  }
+
+  #min-margin {
+    margin: 40px 0 40px 0 !important;
+  }
 }
