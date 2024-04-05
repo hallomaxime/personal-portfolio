@@ -5,10 +5,18 @@
 }
 
 /* Homepage */
-.hero {
+.hero,
+.header {
   background-color: var(--darkest-color) !important;
   color: var(--primary-color) !important;
+}
+
+.hero {
   padding: 150px 0 190px 0;
+}
+
+.header {
+  padding: 30px 50px 50px;
 }
 
 .intro p {
@@ -72,7 +80,7 @@ a:hover {
 
 .projects {
   margin-top: -50px;
-  padding: 100px;
+  padding: 100px 0 0 0;
   background-color: #ffffff;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -88,7 +96,7 @@ footer {
   }
 
   .projects {
-    padding: 20px !important;
+    padding: 40px !important;
   }
 
   .project-desc {
@@ -129,9 +137,9 @@ footer {
   padding: 40px !important;
 }
 
-.about-header {
+.content-header {
   height: 30%;
-  margin-top: 100px;
+  margin: 100px 0 50px 0;
   padding: 30px !important;
   background-color: var(--darkest-color);
   border-top-left-radius: 50px;
@@ -167,6 +175,10 @@ footer {
   max-width: 800px;
 }
 
+.homepage-link {
+  margin-bottom: 100px !important;
+}
+
 @media (max-width: 576px) {
   .about h1 {
     font-size: 36px !important;
@@ -196,7 +208,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .about-header {
+  .content-header {
     height: auto !important;
     border-bottom-right-radius: 50px;
     padding: 24px;
