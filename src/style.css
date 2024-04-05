@@ -49,6 +49,13 @@ li a {
   padding: 100px 20px 190px 20px;
 }
 
+.project-header {
+  background-color: var(--darkest-color);
+  color: var(--secondary-color);
+  height: 400px;
+  padding: 100px 20px 190px 20px;
+}
+
 h1 {
   font-size: 100px !important;
   color: var(--primary-color) !important;
