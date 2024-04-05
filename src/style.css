@@ -78,7 +78,7 @@ a:hover {
   opacity: 0.6;
 }
 
-.projects {
+.rounded-container {
   margin-top: -50px;
   padding: 100px 0 0 0;
   background-color: #ffffff;
@@ -134,12 +134,16 @@ footer {
   margin-bottom: 100px !important;
 }
 
+.contact-info {
+  margin: 50px auto;
+}
+
 @media (max-width: 576px) {
   .hero {
     padding: 100px 0 140px 0;
   }
 
-  .projects {
+  .rounded-container {
     padding: 40px !important;
   }
 
