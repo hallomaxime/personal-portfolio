@@ -90,6 +90,50 @@ footer {
   font-size: 14px;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-header {
+  margin: 100px 0 50px 0;
+  padding: 30px !important;
+}
+
+.about h1 {
+  font-size: 64px !important;
+}
+
+.about h2 {
+  margin: 0 !important;
+}
+
+.light-text {
+  color: var(--primary-color);
+}
+
+.maxime {
+  width: 300px !important;
+  margin-left: -20px !important;
+  border-radius: 120px !important;
+}
+
+.maxime-afoort {
+  width: 200px !important;
+  margin-left: -40px !important;
+  border-radius: 80px !important;
+}
+
+.about-maxime {
+  margin: 0 auto !important;
+  max-width: 800px;
+}
+
+.homepage-link {
+  margin-bottom: 100px !important;
+}
+
 @media (max-width: 576px) {
   .hero {
     padding: 100px 0 140px 0;
@@ -127,59 +171,7 @@ footer {
   #min-margin {
     margin: 40px 0 40px 0 !important;
   }
-}
 
-/* About */
-.about {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 40px !important;
-}
-
-.content-header {
-  height: 30%;
-  margin: 100px 0 50px 0;
-  padding: 30px !important;
-  background-color: var(--darkest-color);
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
-
-.about h1 {
-  font-size: 64px !important;
-}
-
-.about h2 {
-  margin: 0 !important;
-}
-
-.light-text {
-  color: var(--primary-color);
-}
-
-.maxime {
-  width: 300px !important;
-  margin-left: -20px !important;
-  border-radius: 120px !important;
-}
-
-.maxime-afoort {
-  width: 200px !important;
-  margin-left: -40px !important;
-  border-radius: 80px !important;
-}
-
-.about-maxime {
-  margin: 0 auto !important;
-  max-width: 800px;
-}
-
-.homepage-link {
-  margin-bottom: 100px !important;
-}
-
-@media (max-width: 576px) {
   .about h1 {
     font-size: 36px !important;
     line-height: 36px !important;
@@ -204,14 +196,6 @@ footer {
 @media (max-width: 800px) {
   .about-maxime {
     margin: 0 20px !important;
-  }
-}
-
-@media (max-width: 1000px) {
-  .content-header {
-    height: auto !important;
-    border-bottom-right-radius: 50px;
-    padding: 24px;
   }
 }
 
