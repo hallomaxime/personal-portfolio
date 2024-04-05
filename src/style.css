@@ -11,18 +11,8 @@ body {
   background-color: var(--lightest-color);
 }
 
-nav {
-  background-color: var(--darkest-color);
-  margin: 0;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-}
-
-.nav-home {
-  padding-left: 10px;
-  font-weight: bold;
+.bg-dark-tertiary {
+  background-color: var(--bg-dark);
 }
 
 ul {
@@ -200,9 +190,9 @@ footer {
   }
 }
 
-@media (max-width: 576px) {
-  nav {
-    font-size: 14px;
+@media (max-width: 580px) {
+  ul {
+    padding: 0 !important;
   }
 
   li {
@@ -211,7 +201,7 @@ footer {
 
   .hero {
     height: 500px;
-    padding: 50px 20px 60px 20px;
+    padding: 60px 20px 60px 20px;
   }
 
   .intro {
